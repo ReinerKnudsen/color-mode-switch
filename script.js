@@ -3,6 +3,8 @@ const navElement = document.getElementById("nav");
 const switchIcon = document.getElementById("toggle-icon");
 const imageElements = document.getElementsByClassName("img-innovation");
 const textBoxElement = document.getElementById("text-box");
+
+// We default to light mode for new users
 let appMode = "light";
 let oldAppMode = "dark";
 
